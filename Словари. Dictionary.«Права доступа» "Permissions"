@@ -48,5 +48,5 @@ for j in range(m):
         if list[i][0] == list2[j][0]:# первый элемент в строке
             if list2[j][1] in list[i][1:]: # от 2 до конца строки
                 print('OK')
-            if list2[j][1] not in list[i][1:]:
+            elif list2[j][1] not in list[i][1:]:
                 print('Access denied')
